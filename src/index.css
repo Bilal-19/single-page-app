@@ -1,0 +1,203 @@
+body {
+  box-sizing: border-box;
+}
+
+/* --------------------------------------- Styling sidebar ---------------------------------------*/
+.login--heading {
+  font: italic bolder 35px 'Lato', sans-serif;
+  /* font: style, weight, size, family */
+  margin: 25px 0px 67px 0px;
+  /* top right bottom left*/
+}
+
+.set-navigation {
+  /* font: style, variant, weight, size/line-height, family */
+  font: normal bold 18px 'Poppins', sans-serif;
+  color: #494949;
+}
+
+.set--footer {
+  position: absolute;
+  top: 610px;
+}
+
+.logout-btn {
+  font: normal bolder 18px 'Poppins', sans-serif;
+  background-color: #48AF78;
+  color: white;
+  padding: 10px 12px;     /* 10px for top/bottom & 12px for left/right */
+  border-radius: 10px;
+  border-style: none;
+  width: 170px;
+}
+
+.set--footer p {
+  width: 170px;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* display: block; */
+  /* margin: 2px 60px; */
+  /* align-items: center; */
+}
+
+/* --------------------------------------- Styling article section ---------------------------------------*/
+.bg-color {
+  background-color: #D9D9D9;
+}
+
+.section--heading {
+  font: normal bold 18px 'Poppins', sans-serif;
+  color: #72AA83;
+  margin: 10px 500px 10px 16px;
+}
+
+.box {
+  background-color: white;
+  width: 1020px;
+  height: 180px;
+  margin: 2px 500px 10px 5px;
+  /* top right bottom left */
+}
+
+.heading {
+  color: #48AF78;
+  font: bold 20px 'Lato', sans-serif;
+  margin: 20px 14px 0px 24px;
+}
+
+
+.heading-description {
+  font: normal 16px 'Lato', sans-serif;
+  margin-left: 24px;
+  color: #959595;
+  margin-top: 0px;
+}
+
+.vertical-line {
+  border-left: 2px solid #48AF78;
+  height: 80px;
+  margin-top: 20px;
+}
+
+.button-design {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  color: #959595;
+  border: 1px solid #959595;
+  margin-top: 0;
+}
+
+.first-btn,
+.second-btn,
+.third-btn {
+  font: normal 16px 'Lato', sans-serif;
+  width: 310px;
+}
+
+.first-btn {
+  margin-left: 12px;
+  background-color: #FDF307;
+  color: #959595;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  text-align: start;
+}
+
+.second-btn,
+.third-btn {
+  color: #959595;
+  background-color: white;
+}
+
+.third-btn {
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+/* ------------------------------------------------ Styling Second Section ------------------------------------------------ */
+
+.detail-box {
+  height: 480px;
+  width: 1020px;
+  margin-top: 10px;
+  margin-left: 5px;
+  background-color: white;
+  border-radius: 54px;
+}
+
+.main--card {
+  box-shadow: 0px 0px 5px lightgray;
+}
+
+.sub--card {
+  box-shadow: 0px 0px 5px lightgray;
+  margin-left: 10px;
+}
+
+.btn--style {
+  color: white;
+  background-color: #48AF78;
+  border-radius: 24px;
+  border-style: none;
+  padding: 8px 22px;
+  width: 712px;
+  text-align: start;
+  margin-left: 30px;
+}
+
+.card--badge {
+  font: lighter 13.35px 'Poppins', sans-serif;
+  position: absolute;
+  top: -21px;
+  left: 200px;
+  background-color: #D96A6B;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+  width: 110px;
+  border-style: none;
+  letter-spacing: -1%;
+}
+
+img {
+  display: block;
+  margin: 30px auto;
+}
+
+.logo--name {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  text-align: center;
+  color: #85C371;
+}
+
+.description {
+  text-align: center;
+}
+
+.price {
+  margin: 0px 0px 1px 7px;
+}
+
+.book--btn {
+  font-family: 'Latto';
+  font-weight: normal;
+  font-size: 17.59px;
+  color: white;
+  background-color: #44A16F;
+  padding: 8px 10px;
+  border-radius: 12px;
+  width: 100px;
+  margin-right: 0px;
+  border-style: none;
+}
+
+.chat--icon {
+  width: 100px;
+  height: 100px;
+  margin-right: 190px;
+  cursor: pointer;
+}
